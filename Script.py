@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """Hello {},
-Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! I can't even imagine how super-fast i can drive your Database channel \n\nAre you ready for Long Drive Baby...🤪"""
+Myself <a href=https://t.me/{}>{}</a>,\n\n𝚃𝚛𝚞𝚜𝚝 𝚖𝚎 ! 𝙸 𝚌𝚊𝚗'𝚝 𝚎𝚟𝚎𝚗 𝚒𝚖𝚊𝚐𝚒𝚗𝚎 𝚑𝚘𝚠 𝚜𝚞𝚙𝚎𝚛-𝚏𝚊𝚜𝚝 𝚒 𝚌𝚊𝚗 𝚍𝚛𝚒𝚟𝚎 𝚢𝚘𝚞𝚛 𝙳𝚊𝚝𝚊𝚋𝚊𝚜𝚎 𝚌𝚑𝚊𝚗𝚗𝚎𝚕  \n\n𝙰𝚛𝚎 𝚢𝚘𝚞 𝚛𝚎𝚊𝚍𝚢 𝚏𝚘𝚛 𝙻𝚘𝚗𝚐 𝙳𝚛𝚒𝚟𝚎 𝙱𝚊𝚋𝚢...🤪"""
     LZTHMB_TEXT = """Hello {},
 Glad to see you here. It seems that you really love <a href=https://t.me/LazyDeveloperr >LazyDeveloper's</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://t.me/LazyDeveloper>Dev Channel</a> and stay tuned for next <a href=https://t.me/LazyDeveloper>update</a>.\n\n  🐞 Report Bug here: <a href=http://t.me/LazyDeveloperSupport>LazyDev Support</a>
     """
