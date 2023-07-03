@@ -36,7 +36,6 @@ import humanize
 from info import ADMINS , FLOOD, LAZY_MODE, LAZY_RENAMERS
 import random
 
-
 # Born to make history @LazyDeveloper !
 
 @Client.on_message( filters.private & (filters.document | filters.audio | filters.video))

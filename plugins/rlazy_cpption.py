@@ -14,7 +14,6 @@ async def add_caption(client, message):
     await db.set_caption(message.from_user.id, caption=caption)
     await message.reply_text("__** 𝚈𝙾𝚄𝚁 𝙲𝙰𝙿𝚃𝙸𝙾𝙽 𝚂𝙰𝚅𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 ✅**__")
 
-    
 @Client.on_message(filters.private & filters.command('del_caption'))
 async def delete_caption(client, message):
     caption = await db.get_caption(message.from_user.id)  
@@ -22,7 +21,7 @@ async def delete_caption(client, message):
        return await message.reply_text("Note: Lazy_Mode active ✅\n\n😔**Sorry sweetheart ! No Caption found...**😔")
     await db.set_caption(message.from_user.id, caption=None)
     await message.reply_text("**** Your Caption deleted successfully**✅️")
-                                       
+                               
 @Client.on_message(filters.private & filters.command('see_caption'))
 async def see_caption(client, message):
     caption = await db.get_caption(message.from_user.id)  
